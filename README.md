@@ -1,3 +1,3 @@
 # CVYUH
 
-A project website for CVYUH, a workspace for asset discovery, service evidence, and security context.
+Project showcase for CVYUH, a self-hosted workspace for asset discovery, service evidence, and vulnerability context.
