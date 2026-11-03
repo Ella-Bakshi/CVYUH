@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; worker-src 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#000000">
+  <title>CVYUH — Asset discovery &amp; security context</title>
+  <meta name="description" content="CVYUH is a self-hosted workspace for asset discovery, service evidence, and vulnerability context. Define scope, coordinate agents, and investigate your inventory.">
+  <link rel="canonical" href="https://cvyuh.in/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CVYUH">
+  <meta property="og:title" content="CVYUH — Asset discovery &amp; security context">
+  <meta property="og:description" content="A self-hosted workspace for asset discovery, service evidence, and vulnerability context.">
+  <meta property="og:url" content="https://cvyuh.in/">
+  <meta property="og:image" content="https://cvyuh.in/assets/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CVYUH. Asset discovery. Security context.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Barlow-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/Barlow-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell"><a class="brand" href="./" aria-label="CVYUH home"><span class="brand-mark" aria-hidden="true">C</span>CVYUH</a><nav aria-label="Main navigation"><a href="#platform">Platform</a><a href="#workflow">Workflow</a><a href="#workspace">Workspace</a></nav><span class="dev-status"><span aria-hidden="true"></span>In development</span></header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="title">
+      <div class="hero-copy"><p class="eyebrow"><span aria-hidden="true"></span>Discovery. Inventory. Context.</p><h1 id="title">CVYUH</h1><p class="hero-description">A self-hosted workspace for asset discovery, service evidence, and vulnerability context.</p><p class="hero-detail">Define scope. Coordinate agents.<br>Follow the evidence through your network.</p><div class="hero-actions"><a class="button" href="#platform">Explore the platform <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#workspace">See the workspace <span aria-hidden="true">↓</span></a></div></div>
+      <figure class="hero-screen preview-panel"><div class="image-chrome"><span class="chrome-path"><span aria-hidden="true">◈</span>CVYUH / DASHBOARD</span><span class="chrome-note">Workspace view</span></div><div class="hero-image"><a class="preview-image-link" href="assets/previews/dashboard.webp" aria-label="Expand CVYUH dashboard screenshot"><img src="assets/previews/dashboard.webp" width="1280" height="950" alt="CVYUH dashboard with host metrics, scan history, classification, and port observations." fetchpriority="high" decoding="async"></a></div><figcaption><h3>Dashboard</h3><a class="expand-link" href="assets/previews/dashboard.webp">View full size <span aria-hidden="true">↗</span></a></figcaption></figure>
+      <div class="system-strip"><span><i aria-hidden="true"></i>Self-hosted by design</span><span>Master + scanning agents</span><span>From scope to investigation</span><a href="#workflow">Follow the workflow <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="platform shell section" id="platform" aria-labelledby="platform-title"><div class="section-top"><div><p class="eyebrow">The platform</p><h2 id="platform-title">See the assets.<br><span>Keep the context.</span></h2></div><p>From the first approved target to a reviewed finding, CVYUH keeps discovery, evidence, and investigation in one place.</p></div><div class="capability-grid">
+      <article class="capability"><div class="capability-top"><span class="cap-number">01</span><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M3 9V3h6m8 0h6v6M3 17v6h6m8 0h6v-6" stroke="currentColor" stroke-width="1.3"/><circle cx="13" cy="13" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M13 5v4m0 8v4M5 13h4m8 0h4" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Scoped discovery</h3><p>Define approved IP, CIDR, ASN, or hostname targets.</p><span class="capability-tag">Scope Wizard / Target previews</span></article>
+      <article class="capability"><div class="capability-top"><span class="cap-number">02</span><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="9" y="2" width="8" height="6" stroke="currentColor" stroke-width="1.3"/><path d="M13 8v6M5 18v-4h16v4" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="18" width="6" height="6" stroke="currentColor" stroke-width="1.3"/><rect x="18" y="18" width="6" height="6" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Distributed operations</h3><p>Run scans through a master or assign bounded work to agents. Follow fleet health, assignments, and scan progress.</p><span class="capability-tag">Master / Agents / Task state</span></article>
+      <article class="capability"><div class="capability-top"><span class="cap-number">03</span><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="3" y="4" width="20" height="18" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M3 10h20M10 10v12M6 7h2m3 0h2M14 14h5m-5 4h5M6 14h1m-1 4h1" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Evidence-rich inventory</h3><p>Move from host to open port, service, banner, and software candidate. Keep scan history close to the observation.</p><span class="capability-tag">Hosts / Ports / Service evidence</span></article>
+      <article class="capability wide"><div class="capability-top"><span class="cap-number">04</span><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="m13 2 9 4v7c0 5-9 11-9 11S4 18 4 13V6Z" stroke="currentColor" stroke-width="1.3"/><path d="M8 10h10M8 14h7" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Fingerprinting &amp; security context</h3><p>Connect observed signals with software and version candidates. Bring CVE, KEV, EPSS, and exploit intelligence into the investigation.</p><span class="capability-tag">Observed signals / Software / Intelligence</span></article>
+      <article class="capability wide"><div class="capability-top"><span class="cap-number">05</span><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6" stroke="currentColor" stroke-width="1.3"/><path d="m14 14 8 8M18 4h5m-3-3v6M4 21h7" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Investigation &amp; reporting</h3><p>Search and filter the inventory, review and classify hosts, and export findings. Audit and scan history preserve the operational trail.</p><span class="capability-tag">Search / Review / Export / Audit</span></article>
+    </div></section>
+
+    <section class="workflow-section" id="workflow" aria-labelledby="workflow-title"><div class="shell"><div class="section-top"><div><p class="eyebrow">The workflow</p><h2 id="workflow-title">From scope to findings.</h2></div><p>A connected path through discovery, evidence, and follow-up work.</p></div><ol class="workflow"><li><span class="step-number">01</span><h3>Define scope</h3><p>IP / CIDR / ASN / Hostname</p></li><li><span class="step-number">02</span><h3>Observe services</h3><p>Ports / Protocols / Banners</p></li><li><span class="step-number">03</span><h3>Investigate evidence</h3><p>Hosts / Software / History</p></li><li><span class="step-number">04</span><h3>Review context</h3><p>CVE / KEV / EPSS</p></li><li><span class="step-number">05</span><h3>Export findings</h3><p>Reports / Audit trail</p></li></ol></div></section>
+
+    <section class="plugins shell section" id="plugins" aria-labelledby="plugins-title"><div class="plugin-intro"><p class="eyebrow">Plugin architecture</p><h2 id="plugins-title">Extend the workflow.</h2><p>Add discovery, analysis, export, and notification modules through defined hooks. Each module declares its hooks and capabilities in <code>plugin.yaml</code> and runs in a separate, bounded process.</p><p class="plugin-examples">IPv6 target expansion · SYN-first discovery · Application-layer probes</p></div><div class="hook-panel"><div class="hook-panel-heading"><span>PLUGIN.YAML</span><span>Hooks + capabilities</span></div><ol class="hook-list"><li><span>01</span>Pre-scan</li><li><span>02</span>Post-target-resolution</li><li><span>03</span>Post-scan</li><li><span>04</span>Result export</li></ol><p>Plugin-supplied targets pass through scan scope checks.</p></div></section>
+
+    <section class="workspace shell section" id="workspace" aria-labelledby="workspace-title"><div class="section-top"><div><p class="eyebrow">Inside CVYUH</p><h2 id="workspace-title">The working view.</h2></div><p>Explore the dashboard, scan details, and service inventory.</p></div><div class="product-viewer"><div class="viewer-toolbar"><div class="view-tabs" aria-label="Workspace screenshots"><a id="tab-dashboard" href="#view-dashboard" class="view-tab">Dashboard</a><a id="tab-scans" href="#view-scans" class="view-tab">Scan detail</a><a id="tab-hosts" href="#view-hosts" class="view-tab">Host Explorer</a></div><span class="viewer-label">CVYUH / WORKSPACE</span></div>
+      <figure class="preview-panel" id="view-dashboard"><div class="screen-stage">
+        <!-- preview:dashboard:start -->
+        <a class="preview-image-link" href="assets/previews/dashboard.webp" aria-label="Expand dashboard screenshot"><img src="assets/previews/dashboard.webp" width="1280" height="950" alt="CVYUH dashboard with host metrics, scan history, classification, and port observations." loading="lazy" decoding="async"></a>
+        <!-- preview:dashboard:end -->
+      </div><figcaption class="screen-caption"><div><h3>Dashboard</h3><p>Host overview, scan history, and service observations.</p></div><a href="assets/previews/dashboard.webp" class="expand-link">Expand image <span aria-hidden="true">↗</span></a></figcaption></figure>
+      <figure class="preview-panel" id="view-scans"><div class="screen-stage">
+        <!-- preview:scans:start -->
+        <a class="preview-image-link" href="assets/previews/scans.webp" aria-label="Expand scan detail screenshot"><img src="assets/previews/scans.webp" width="1280" height="1024" alt="CVYUH scan detail showing status, scan configuration, port observations, and software labels." loading="lazy" decoding="async"></a>
+        <!-- preview:scans:end -->
+      </div><figcaption class="screen-caption"><div><h3>Scan detail</h3><p>Configuration, progress, enrichment, and results in one view.</p></div><a href="assets/previews/scans.webp" class="expand-link">Expand image <span aria-hidden="true">↗</span></a></figcaption></figure>
+      <figure class="preview-panel" id="view-hosts"><div class="screen-stage">
+        <!-- preview:hosts:start -->
+        <a class="preview-image-link" href="assets/previews/hosts.webp" aria-label="Expand Host Explorer screenshot"><img src="assets/previews/hosts.webp" width="1280" height="900" alt="CVYUH Host Explorer with search, filters, an IPv6 host entry, port observations, and service labels." loading="lazy" decoding="async"></a>
+        <!-- preview:hosts:end -->
+      </div><figcaption class="screen-caption"><div><h3>Host Explorer</h3><p>Searchable inventory with service and software context.</p></div><a href="assets/previews/hosts.webp" class="expand-link">Expand image <span aria-hidden="true">↗</span></a></figcaption></figure>
+    </div></section>
+  </main>
+  <footer class="site-footer shell"><div class="footer-main"><a class="brand" href="./" aria-label="CVYUH home"><span class="brand-mark" aria-hidden="true">C</span>CVYUH</a><p>Asset discovery &amp; security context.</p><a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>Self-hosted. Scope-aware. Evidence-led.</span><a href="privacy.html">Privacy</a><span>cvyuh.in</span></div></footer>
+  <dialog class="image-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><h2 id="dialog-title">CVYUH workspace</h2><button class="dialog-close" type="button" aria-label="Close expanded image">Close <span aria-hidden="true">×</span></button></div><div class="dialog-image-area"><img width="1280" height="1024" alt=""></div></dialog>
+</body>
+</html>
+
+
